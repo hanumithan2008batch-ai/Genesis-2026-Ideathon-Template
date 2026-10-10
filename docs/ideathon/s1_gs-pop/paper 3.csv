@@ -1,0 +1,781 @@
+CSD Working Paper Series: Towards a New Indian Model of Information and Communications
+Technology-Led Growth and Development 
+Electronic Health Records in India 
+ICT India Working Paper #25 
+Manisha Wadhwa 
+March 2020 
+CSD Working Paper Series: Towards a New Indian Model of Information and Communications,
+Technology-Led Growth and Development ,
+Table of Contents ,
+Abbreviations ................................................................................................................................................ 4 ,
+Abstract ......................................................................................................................................................... 5 ,
+Introduction .................................................................................................................................................. 6 ,
+Benefits of EHR ............................................................................................................................................. 8 ,
+Initiatives by the Government of India ......................................................................................................... 8 ,
+EHR Standards ........................................................................................................................................... 8 ,
+Goals of EHR Standards ......................................................................................................................... 9 ,
+Need for EHR Standards ........................................................................................................................ 9 ,
+Other Initiatives ........................................................................................................................................ 9 ,
+Electronic Medical Record Adoption Model ............................................................................................... 10 ,
+Private Sector Initiatives ............................................................................................................................. 10 ,
+Challenges ................................................................................................................................................... 10 ,
+International Lessons .................................................................................................................................. 11 ,
+EHR and EMR in China ............................................................................................................................ 11 ,
+Establishment of Bangladesh National Enterprise Architecture ............................................................ 12 ,
+Lifetime Health Record in Malaysia ........................................................................................................ 12 ,
+Components & Activities involved in EHR adoption ................................................................................... 12 ,
+ICT Infrastructure .................................................................................................................................... 13 ,
+Policy & regulations ................................................................................................................................ 13 ,
+Standards & interoperability ................................................................................................................... 14 ,
+"Research, development & education ..................................................................................................... 14 ",
+Conclusion ................................................................................................................................................... 14 ,
+References .................................................................................................................................................. 14 ,
+Annexures ................................................................................................................................................... 16 ,
+Annexure 1: Standards at a Glance ......................................................................................................... 16 ,
+Annexure 2: List of Supporting / Complimenting Standards .................................................................. 19 ,
+Annexure 3: Objectives of National eHealth Authority (NeHA).............................................................. 19 ,
+Electronic Health Records in India,Page 2 
+CSD Working Paper Series: Towards a New Indian Model of Information and Communications,
+Technology-Led Growth and Development ,
+List of Tables ,
+Table 1: Benefits of EHR ................................................................................................................................ 8 ,
+Table 2: Goals of EHR Standards ................................................................................................................... 9 ,
+Table 3: Electronic Medical Record Adoption Model (EMRAM) ................................................................. 10 ,
+Table 4 : Components and Activities involved in EHR adoption ................................................................. 13 ,
+List of Figures ,
+Figure 1: A Simple Electronic Health Record System .................................................................................... 7 ,
+Electronic Health Records in India,Page 3 
+CSD Working Paper Series: Towards a New Indian Model of Information and Communications,,
+Technology-Led Growth and Development ,,
+Abbreviations ,,
+AHR,,Automated Health Records 
+BCC,Bangladesh Computer Council,
+CPR ,Computer-based Patient Record,
+DISHA,Digital Health Information in Healthcare Security,
+e-GIF,,e-Government Interoperability Framework
+eHIE,electronic health information exchange,
+EHR,Electronic Health Record,
+EMR ,Electronic Medical Record,
+EMRAM,, Electronic Medical Record Adoption Model
+ERNET,,Education and Research Network
+FOSS,, Free and Open Source
+GoB,Government of Bangladesh,
+HIMSS,, Healthcare Information and Management Systems Society
+HISPC,,Health Information Standards Professional Committee 
+ICT,,Information and Communications Technology
+IT,Information Technology,
+ITU,International Telecommunication Union,
+LHR,,Lifetime Health Record
+MIS ,Management Information System,
+MOH,Ministry of Health,
+MoH&FW,Ministry of Health & Family Welfare,
+NeHA,National e-health Authority of India,
+NITI,National Institution for Transforming India ,
+NKN,National Knowledge Network,
+PHR, Personal Health Record,
+SHR ,Shared Health Record,
+SN,Sankara Nethralaya,
+WHO,World Health Organization,
+Electronic Health Records in India,,Page 4 
+CSD Working Paper Series: Towards a New Indian Model of Information and Communications,,,,,,,,,,,,,,,
+Technology-Led Growth and Development ,,,,,,,,,,,,,,,
+Abstract ,,,,,,,,,,,,,,,
+The Information and Communications Technology (ICT) seem to diffuse in almost all the sectors.,,,,,,,,,,,,,,,
+ICT has transformed the way the healthcare data is managed. The widespread usage of electronic,,,,,,,,,,,,,,,
+"devices like computers, tablets, mobile phones along with the availability of high speed internet",,,,,,,,,,,,,,,
+have made possible the transition from paper based patient records to electronic records.,,,,,,,,,,,,,,,
+Electronic,,Health,Records,(EHRs),are,real,time,digital,version,of,patient,records.,An,Electronic,
+Health Record (EHR) is a comprehensive report of an individual’s overall health. Electronic Health,,,,,,,,,,,,,,,
+"Records (EHRs) help track patient’s clinical progress, facilitate improved health care decisions and",,,,,,,,,,,,,,,
+provide evidence based care. ,,,,,,,,,,,,,,,
+"This is a concept paper based on secondary data from various national and international journals,",,,,,,,,,,,,,,,
+government,,,"documents,",government,,and,private,websites.,,This,paper,presents,a,review,of
+Electronic,,Health,Records,(EHRs),and,its,use,in,India.,The,document,gives,details,of,initiatives
+taken,by,the,government of,India,in,relation to,,EHRs.,"Further,",the,paper discusses the potential,,,,
+benefits,,of,Electronic,Health,Records,(EHRs).,,International,,lessons,from,other,countries,like,
+"China, Bangladesh and Malaysia are also discussed. A brief account of",,,,,,,,,,,Electronic Medical Record,,,,
+Adoption Model (EMRAM) and private initiatives is also given. Challenges in the way of adoption,,,,,,,,,,,,,,,
+of,Electronic,,Health,Records,(EHRs),in,India,are,discussed,in,detail.,"Further,",this,paper,presents
+an outline of roadmap for adoption of Electronic Health Records (EHRs) in India.,,,,,,,,,,,,,,,
+"Keywords: Electronic Health Records, EHR, Information and Communications Technology, ICT,",,,,,,,,,,,,,,,
+India ,,,,,,,,,,,,,,,
+Electronic Health Records in India,,,,,,,,,,,,,,Page 5 ,
+CSD Working Paper Series: Towards a New Indian Model of Information and Communications,,,,,,,,,,,,,,,,,,,
+Technology-Led Growth and Development ,,,,,,,,,,,,,,,,,,,
+Introduction ,,,,,,,,,,,,,,,,,,,
+Information,,,and,Communications Technology,,,(ICT),,has,created,,a,paradigm,shift,in,the,way,,
+patient,,clinical,data,is,"captured,","stored,",used,and,disseminated.,,,"Evidently,",there,,has,been,a,,
+gradual shift from paper based records to electronic records. A number of terms have been used,,,,,,,,,,,,,,,,,,,
+to describe,,the,move from,paper based,,records,to,electronic records.,,,,Some,of,these,terms,are:,,,
+Automated,,,Health,Records,"(AHR),",Computer-based,,,Patient,,Record,"(CPR),",Electronic,,,Medical,,,
+"Record (EMR), and Electronic Health Record (EHR).",,,,,,,,,,,,,,,,,,,
+Automated Health Records (AHR) ,,,,,,,,,,,,,,,,,,,
+Automated,,Health,Records,,was,the,term,used,for,a,set,of,health,records,stored,in,the,form,of
+images,,into,a,computer(World,Health,Organization,,and,,Regional,,Office,for,the,Western,Pacific,,,
+2006). This type of health records were used in early 1990’s when data was stored in the form of,,,,,,,,,,,,,,,,,,,
+images,,on,optical,disk.,This,helped,address,problems,like,,those,of,space,and,access,related,to,,
+the traditional paper based records. ,,,,,,,,,,,,,,,,,,,
+Computer-based Patient Record (CPR) ,,,,,,,,,,,,,,,,,,,
+The Computer-based Patient Record (CPR) was used to define a collection of health information,,,,,,,,,,,,,,,,,,,
+"for a single patient, either for a single episode or for extended period of care and this was linked",,,,,,,,,,,,,,,,,,,
+by,a,patient,identifier(World,,Health,Organization,,and,Regional,,,Office,for,the,Western,Pacific,,,
+2006).,,The,Computer-based,,Patient,Record,(CPR),focused,,,on,functions,like,"alerts,",orders,for,,,
+medication,,,and,providing,integrated,patient,information,,,,from,various,departments,,,like,,,
+"pharmacy,",,"laboratory,",,radiology,etc.,"However,",the,,exchange,,of,information,was,,limited,,to,,
+inpatient facilities. ,,,,,,,,,,,,,,,,,,,
+Electronic Medical Record (EMR) ,,,,,,,,,,,,,,,,,,,
+The term Electronic Medical Record was used to define an electronic record system used by the,,,,,,,,,,,,,,,,,,,
+general,,practitioners,to,record,patient,clinical,,information,,,like,"identification,",,"prescription,",,,,,
+laboratory test results etc.(World Health Organization and Regional Office for the Western Pacific,,,,,,,,,,,,,,,,,,,
+2006). ,,,,,,,,,,,,,,,,,,,
+Electronic Health Record (EHR) ,,,,,,,,,,,,,,,,,,,
+Electronic,,Health,Records,were,first,introduced,in,1960s.,,"However,",,it,is,in,the,year,2009,when,
+the “Health Information Technology for Economic and Clinical Health Act” was passed and,,,,,,,,,,,,,,,,,,,
+around,,$30,billion,was,allocated,for,the,adoption,of,the,Electronic,Health,Records,,,and,its,,
+implementation on a large scale. ,,,,,,,,,,,,,,,,,,,
+“An Electronic Health Record (EHR) is defined as a collection of various medical records that get,,,,,,,,,,,,,,,,,,,
+generated during any clinical encounter or events”(Vikaspedia 2019). In USA EHR is defined as: ,,,,,,,,,,,,,,,,,,,
+“Theelectronic,,,health,record,includes,all,information,,contained,,,in,a,traditional,health,record,,,
+"including a patient’s health profile, behavioural and environmental information. As well as",,,,,,,,,,,,,,,,,,,
+"content the EHR also includes the dimension of time, which allows for the inclusion of information",,,,,,,,,,,,,,,,,,,
+Electronic Health Records in India,,,,,,,,,,,,,,,,Page 6 ,,,
+CSD Working Paper Series: Towards a New Indian Model of Information and Communications,,,,,,,,,,,,,,,,,
+Technology-Led Growth and Development ,,,,,,,,,,,,,,,,,
+"across multiple episodes and providers, which will ultimately evolve into a lifetime record”(World",,,,,,,,,,,,,,,,,
+Health Organization and Regional Office for the Western Pacific 2006). ,,,,,,,,,,,,,,,,,
+EHR,,refers,to,a,real,"time,",unique,longitudinal,health,record,of,a,single,individual,containing,his,
+or,her,entire,,personal,,health,information,including,medical,,,details,like,"history,",medical,,
+"examination, diagnosis, laboratory results, allergies, details of immunization, treatment etc. in a",,,,,,,,,,,,,,,,,
+digital,,format.,The,,information,is,entered,electronically,by,the,,healthcare,providers,over,the,,
+course,,of,his/her,lifetime.,,A,simple,Electronic,Health,Record,System,,is,shown,in,the,Figure
+1(World,,Health,,Organization,,and,Regional,Office,for,the,Western,Pacific,2006).,This,includes,,
+details from some departments within the Institution. Depending on the scope of the EHR system,,,,,,,,,,,,,,,,,
+patient details from other departments can also be included.,,,,,,,,,,,,,,,,,
+Figure 1: A Simple Electronic Health Record System ,,,,,,,,,,,,,,,,,
+,,,,,,,Patient ID,,,,,,,,,,
+,,,,,,,and,,,,,,,,,,
+,,,,,,,Registration,,,,,,,,,,
+,,,,,,,details,,,,,,,,,,
+,,,,,,,,,,,Lab/Haem/,,,,,,
+,,,,Clinical data,,,,,,,,,,,,,
+,,,,treatment,,,,,,,Pathology/,,,,,,
+,,,,orders/result,,,,,,,Biochem/,,,,,,
+,,,,OPD visits,,,,,,,,,,,,,
+,,,,,,,,,,,Radiology,,,,,,
+,,,,,,,EHR,,,,,,,,,,
+,,,,,,,,,Scanned,,,,,,,,
+,,,,,,Disease,,,,,,,,,,,
+,,,,,,,,,documents,,,,,,,,
+,,,,,,Classification,,,,,,,,,,,
+,,,,,,,,,/previous,,,,,,,,
+,,,,,,and,,,,,,,,,,,
+,,,,,,,,,medical,,,,,,,,
+,,,,,,Indexing,,,,,,,,,,,
+,,,,,,,,,records,,,,,,,,
+Source: Electronic Health Records: A Manual for Developing Countries by WHO ,,,,,,,,,,,,,,,,,
+It,is,important,,to,note,that,Electronic,Health,Records,differ,from,Electronic,Medical,Records.,,,
+Electronic Medical Record is a digital version of paper record related to patient’s medical history,,,,,,,,,,,,,,,,,
+recorded in a clinician’s office. Electronic Medical Records are not designed to be shared outside,,,,,,,,,,,,,,,,,
+Electronic Health Records in India,,,,,,,,,,,,,,Page 7 ,,,
+CSD Working Paper Series: Towards a New Indian Model of Information and Communications,,,,,,,,,,,,,,,,,,,
+Technology-Led Growth and Development ,,,,,,,,,,,,,,,,,,,
+"an individual clinical practice. On the other hand, an Electronic Health Record is a comprehensive",,,,,,,,,,,,,,,,,,,
+report of an individual’s overall health. Electronic Health Records is a collection of various medical,,,,,,,,,,,,,,,,,,,
+records.,,It,is,designed,with,an,intention,,to,be,shared,outside,,the,healthcare,organization.,,,
+"However,",,some,people,,still use the terms “Electronic Medical Record (EMR)” and “Electronic,,,,,,,,,,,,,,
+Health Record (EHR)” interchangeably.,,,,,,,,,,,,,,,,,,,
+Benefits of EHR ,,,,,,,,,,,,,,,,,,,
+The benefits of EHRs are manifold. Some of them are given in Table1. ,,,,,,,,,,,,,,,,,,,
+Table 1: Benefits of EHR ,,,,,,,,,,,,,,,,,,,
+1,,EHRs ensure that patient records are easily accessible from anywhere and at any time ,,,,,,,,,,,,,,,,,
+2,,"EHRs can be stored easily, in less space and for indefinite time ",,,,,,,,,,,,,,,,,
+3,,"Being in electronic format, it reduces the number of records lost ",,,,,,,,,,,,,,,,,
+4,,EHRs improves the quality of patient records and are cost-effective ,,,,,,,,,,,,,,,,,
+5,,EHRs help track patient’s clinical progress and improve patient compliance ,,,,,,,,,,,,,,,,,
+6,,EHR gives a summary report of the various clinical encounters in a person’s lifetime ,,,,,,,,,,,,,,,,,
+7,,EHRs,help,improve,the,accuracy,and,,speed,of,"diagnosis,",and,avoid,,repeating,unnecessary,,,
+,,tests ,,,,,,,,,,,,,,,,,
+8,,EHRs can be transferred easily within and across healthcare facilities ,,,,,,,,,,,,,,,,,
+9,,EHRs,are,easy,to,update,and,can,be,made,available,to,be,used,by,multiple,users,at,single
+,,point of time ,,,,,,,,,,,,,,,,,
+10,,EHRs allow keeping back up of patient records at a very low cost ,,,,,,,,,,,,,,,,,
+11,,EHRs facilitate improved health care decisions and provide evidence based care ,,,,,,,,,,,,,,,,,
+12,,EHRs can be used for research purposes ,,,,,,,,,,,,,,,,,
+Initiatives by the Government of India ,,,,,,,,,,,,,,,,,,,
+EHR Standards ,,,,,,,,,,,,,,,,,,,
+The Ministry of Health & Family Welfare (MoH&FW) first came out with standards for Electronic,,,,,,,,,,,,,,,,,,,
+Health,,Record,(EHR),for,India,in,Sept,2013,These,were,based,,on,the,recommendations,,,made,
+by,the,EMR,Standards,,Committee,,constituted,,,under,the,Ministry,,of,Health,&,Family,Welfare,
+(MoH&FW)(Ozair,,,et,al.,2015).,The,document,,,contained,,recommendations,,,,for,developing,a,
+uniform,,system,for,EHRs,creation,,and,maintenance,,by,healthcare,,,providers.,,These standards,,,
+were,revised,,and,were,notified,in,December,,,2016(Mantri,,2016).,,See,Annexure,1,for,a,quick
+reference,,to,the,MoH&FW EHR,,,Standards,,Version,2016,,List,of,supporting/complimenting,,,,,
+standards is given in Annexure 2. ,,,,,,,,,,,,,,,,,,,
+Electronic Health Records in India,,,,,,,,,,,,,,,,,,Page 8 ,
+CSD Working Paper Series: Towards a New Indian Model of Information and Communications,,,,,,,,,,,,,,,,,,
+Technology-Led Growth and Development ,,,,,,,,,,,,,,,,,,
+Goals of EHR Standards ,,,,,,,,,,,,,,,,,,
+The goals of EHR Standards are enlisted in Table2(Mantri 2016; Vikaspedia 2019). ,,,,,,,,,,,,,,,,,,
+Table 2: Goals of EHR Standards ,,,,,,,,,,,,,,,,,,
+1,Promote interoperability and where necessary be specific about certain content exchange,,,,,,,,,,,,,,,,,
+,and vocabulary standards to establish a path forward toward semantic interoperability ,,,,,,,,,,,,,,,,,
+2,Support the evolution and timely maintenance of adopted standards ,,,,,,,,,,,,,,,,,
+3,Promote technical innovation using adopted standards ,,,,,,,,,,,,,,,,,
+4,Encourage participation and adoption by all vendors and stakeholders ,,,,,,,,,,,,,,,,,
+5,Keep implementation costs as low as reasonably possible ,,,,,,,,,,,,,,,,,
+6,"Consider best practices, experiences, policies and frameworks ",,,,,,,,,,,,,,,,,
+7,"To the extent possible, adopt standards that are modular and not interdependent. ",,,,,,,,,,,,,,,,,
+Need for EHR Standards ,,,,,,,,,,,,,,,,,,
+"➢ Without standards, a lifelong interoperable medical record is hardly interoperable(Mantri 2016)",,,,,,,,,,,,,,,,,,
+Other Initiatives ,,,,,,,,,,,,,,,,,,
+The following are some of the other steps taken by the,,,,,,,,Government of India:,,,,,,,,,,
+➢ National,e-health,,Authority,,of,India,(NeHA),was,proposed,be,set,up,in,the,year,2015,under,the
+,Ministry of Health & Family Welfare (MoH&FW) with the goal to establish the e-Health ecosystem,,,,,,,,,,,,,,,,,
+,"in India(Ministry of Health and Family Welfare, Government of India 2017). One of the objectives",,,,,,,,,,,,,,,,,
+,"of the NeHA is “To lay down data management, privacy and security policies, guidelines and health",,,,,,,,,,,,,,,,,
+,records,of,patients,in,accordance,with,statutory,provisions”(Ministry,,,,of,Health,and,Family,,,
+,"Welfare, Government of India 2017). All the objectives of NeHA are outlined in the Annexure 3.",,,,,,,,,,,,,,,,,
+➢ The,Ministry,of,Health,&,Family,Welfare,(MoH&FW),,have ,put,forward,,a,draft,for,the,,
+,establishment,of an,Act,called,Digital,Health,Information,,in,Healthcare,,,Security,,(DISHA),of,,
+,parliament as a statutory body for promotion or adoption of e-Health standards(Bhavaraju 2018).,,,,,,,,,,,,,,,,,
+,Digital Health Information in Healthcare Security Act (2018) is “An Act to provide for,,,,,,,,,,,,,,,,,
+,establishment,of,National,,and,State,eHealth,Authorities,and,Health,Information,,,Exchanges;,,to,,
+,standardize,and,regulate,the,processes,related,to,"collection,","storing,",,,transmission,,and,use,of,,
+,digital,health,data;,and,to,ensure,"reliability,",data,"privacy,",confidentiality,,and,security,,of,digital,,
+,health data and such other matters related and incidental thereto”(Ministryof,,,,,,,,,,,,,Health,&,Family,,
+,"Welfare, and Government of India 2018). ",,,,,,,,,,,,,,,,,
+➢ “National Health Stack” a visionary digital framework is proposed by theNational,,,,,,,,,,,,,,Institution,,for,,
+,Transforming India (NITI Aayog) with an aim to create digital health records for all the citizens of,,,,,,,,,,,,,,,,,
+,India by the year 2022(NITI Aayog 2018).,,,,,,,,,,,,,,,,,
+Electronic Health Records in India,,,,,,,,,,,,,,,Page 9 ,,,
+CSD Working Paper Series: Towards a New Indian Model of Information and Communications,,,,,,,,,,,,,,,,,,
+Technology-Led Growth and Development ,,,,,,,,,,,,,,,,,,
+Electronic Medical Record Adoption Model ,,,,,,,,,,,,,,,,,,
+Electronic Medical Record Adoption Model (EMRAM) was created in the year 2005 by Healthcare,,,,,,,,,,,,,,,,,,
+Information,,and,Management,,Systems,Society (HIMSS)1(HIMSS,,,,,Analytics,2017).,EMRAM,,,is,an,
+eight stage (0-7) model which measures the level of adoption and utilization of electronic medical,,,,,,,,,,,,,,,,,,
+record,(EMR),functions in,,any,healthcare,organization.,,,This,tool,helps,healthcare,organizations,,,,,
+to,measure,their,progress,in,EMR,adoption,compared,to,other,,healthcare,organizations,,,in,the,,
+world.,Electronic,,Medical,Record,Adoption Model,,,(EMRAM) is,,shown,in,Table,3,For,details,see,,
+Annexure 4.,,,,,,,,,,,,,,,,,,
+Table 3: Electronic Medical Record Adoption Model (EMRAM) ,,,,,,,,,,,,,,,,,,
+Stage 7 ,,,"Complete EMR; External HIE; Data Analytics, Governance, Disaster Recovery,",,,,,,,,,,,,,,,
+,,,Privacy And Security ,,,,,,,,,,,,,,,
+Stage 6 ,,,"Technology Enabled Medication, Blood Products, And Human Milk",,,,,,,,,,,,,,,
+,,,Administration; Risk Reporting; Full CDS ,,,,,,,,,,,,,,,
+Stage 5 ,,,Physician Documentation Using Structured Templates; Intrusion/ Device,,,,,,,,,,,,,,,
+,,,Protection ,,,,,,,,,,,,,,,
+Stage 4 ,,,CPOE With CDS; Nursing And Allied Health Documentation; Basic Business,,,,,,,,,,,,,,,
+,,,Continuity ,,,,,,,,,,,,,,,
+Stage 3 ,,,Nursing And Allied Health Documentation; EMAR; Role-Based Security ,,,,,,,,,,,,,,,
+Stage 2 ,,,CDR; Internal Interoperability; Basic Security ,,,,,,,,,,,,,,,
+Stage 1 ,,,"Ancillaries - Laboratory, Pharmacy, And Radiology/ Cardiology Information",,,,,,,,,,,,,,,
+,,,Systems; PACS; Digital Non-DICOM Image Management ,,,,,,,,,,,,,,,
+Stage 0 ,,,"All Three Ancillaries (Laboratory, Pharmacy, And Radiology) Not Installed ",,,,,,,,,,,,,,,
+Private Sector Initiatives,,,,,,,,,,,,,,,,,,
+Electronic Health Records have been implemented by some of the private hospitals in India. Max,,,,,,,,,,,,,,,,,,
+Healthcare,,initiated,adoption,,of,EHRs,in,the,year,2009,and,has,achieved,Stage,6,level,of,EMR
+adoption,model.,,Max,Healthcare,,in,East,Wing,and,West,"Wing,",Saket,in,New,Delhi,achieved,,
+recognition award for this in the year 2012(Srivastava 2016). Apollo group of Hospitals have also,,,,,,,,,,,,,,,,,,
+"implemented EHR and have achieved stage 6 in four hospitals located in Chennai, Aynambakkam,",,,,,,,,,,,,,,,,,,
+"Nandanam,",,and,Jubilee,Hills,in,Hyderabad(Srivastava,,,2016).,,Other,Hospitals,,like,Sankara,,,
+Nethralaya,,"(SN),",Fortis,etc.,have,also,implemented EHRs.,,"Though,",,private,sector hospitals,,,seem,,,
+"to adopt EHRs system, but the information is hardly exchanged between hospitals.",,,,,,,,,,,,,,,,,,
+Challenges ,,,,,,,,,,,,,,,,,,
+The,development,,and,implementation,,of,EHRs,involve,lots,of,challenges.,It,requires,adequate,,,,
+"funding, sufficient and well trained manpower including experts from different areas like doctors,",,,,,,,,,,,,,,,,,,
+"1 HIMSS Analytics® is a global healthcare IT market intelligence, research and standards organization",,,,,,,,,,,,,,,,,,
+assisting clientele in both healthcare delivery and healthcare technology solutions business,,,,,,,,,,,,,,,,,,
+development to make lasting improvements in efficiency and performance. ,,,,,,,,,,,,,,,,,,
+Electronic Health Records in India,,,,,,,,,,,,,,,Page 10 ,,,
+CSD Working Paper Series: Towards a New Indian Model of Information and Communications,,,,,,,,,,,,,,,,,,
+Technology-Led Growth and Development ,,,,,,,,,,,,,,,,,,
+IT,"experts,",,health,"consultants,",,educators,,etc.,Keeping,patient,records,secure,is,one,of,the,key,
+challenges,,,in,the,implementation,,of,EHRs.,There,are,concerns,related,to,the,misuse,of,the,
+database,,and,threat,to,the,cyber-security.,,In,order,to,ensure,the,privacy,and,confidentiality,of,,
+"the patient’s record, access to data should be given only to the authorized users. Some of the",,,,,,,,,,,,,,,,,,
+"measures like password protected data, cloud storage and encryption can address issues related",,,,,,,,,,,,,,,,,,
+"to security of the EHRs. For data integrity, security measures like antivirus software, firewalls etc.",,,,,,,,,,,,,,,,,,
+should be incorporated in use. ,,,,,,,,,,,,,,,,,,
+Designing a user friendly interface is another challenging task. Poorly designed interface may lead,,,,,,,,,,,,,,,,,,
+to,reduced,,time,"efficiency,",,poor,quality,of,health,care,delivery,and,can,become,a,threat,to,the
+patient’s safety as well. Acceptance of EHR by the doctors is also perceived as a barrier. This is,,,,,,,,,,,,,,,,,,
+due to the extra time that doctor spends in entering data electronically which otherwise they can,,,,,,,,,,,,,,,,,,
+"spend in treating the patients. The idea of introducing accountability by the use of EHRs, financial",,,,,,,,,,,,,,,,,,
+and administrative liabilities are some of the other things being resisted by the doctors.,,,,,,,,,,,,,,,,,,
+Theft,of,Medical,,Identity,is,also,becoming,a,growing,concern.,A,person,may,access,and,use,,
+someone,,else,identifiable,,information,,illegally,to,get,the,medical,services,for,the,ailment.,Lack,,
+"of computer literacy among the healthcare professionals, lack of uniformity in the EHR Software,",,,,,,,,,,,,,,,,,,
+"infrastructural demands, lack of synergy among the health care providers to use the EHR system,",,,,,,,,,,,,,,,,,,
+poor,management,,,"practices,",,lack,of,awareness,of,protocols,related,to,security,of,health,,,
+"information,",,,lack,of,common,understanding,,between,the,software,,development,,team,and,the,,
+healthcare,,,"team,",communication,,silos,within,the,healthcare,,"system,",and,electronic,monitor,,of,,
+data,not,being,,a,mandatory,requirement,,are,some,of,the,other,challenges,in,the,way,of,
+successful deployment of EHRs in India. ,,,,,,,,,,,,,,,,,,
+International Lessons,,,,,,,,,,,,,,,,,,
+EHR and EMR in China ,,,,,,,,,,,,,,,,,,
+Though,,regional,,EHR,systems,began,to,develop,in,China,in,the,year,"2002,",the,major,efforts,
+"started in the year 2005(Gao et al. 2013). In 2005, the 16th Communist Party Central Committee",,,,,,,,,,,,,,,,,,
+made,recommendation,,,,for,the,11th,Five-Year,"Plan12,",directing,the,establishment,,of,EHR,and,,
+EMR,systems,,in,the,country.,In,"2006,",Health,Information,,Standards,Professional,,Committee,,,,
+"(HISPC) was established under the Ministry of Health (MOH), China for creating standards related",,,,,,,,,,,,,,,,,,
+to,EHR,and,EMR.,In,"2009,","MOH,",China,published,first,series,of,standards,and,specifications,,,,
+related,,to,Health,Records.,,By,the,year,"2011,",120,EHR,systems,were,successfully,established,,,
+across,the,,country.,For,the,establishment,,of,EHR,and,EMR,"systems,",China,learnt,from,the,,
+experiences of United States and Australia. China adopted US HL7 Standard for the establishment,,,,,,,,,,,,,,,,,,
+of,EMR,systems.,,To,establish,a,national,EHR,"System, China follows Australia’s three stage",,,,,,,,,
+approach,,(pilot,,"stage,",regional,EHR,"systems,",National,,EHR,system). “The Minister of MOH,,,,,,,
+"declared on Feb 27, 2012 that 900 million residents had created their health records, accounting",,,,,,,,,,,,,,,,,,
+for,66%,of,the,national,"population,",,and,more,than,50%,of,residents,had,created,their,ehealth,,
+records”(Gaoet,,,,al.,2013).,In,the,year,"2014, 50%",tertiary,"hospitals,",30%,Community,,Health,,,
+Electronic Health Records in India,,,,,,,,,,,,,,,Page 11 ,,,
+CSD Working Paper Series: Towards a New Indian Model of Information and Communications,,,,,,,,,,,,,,,,,,
+Technology-Led Growth and Development ,,,,,,,,,,,,,,,,,,
+Centres,,in,Urban,areas,and,20%,hospitals,in,rural,areas,successfully,established,,their,own,EHR,,
+system,,in,China(Parikh,,2015).,It,is,expected,that,by,the,year,"2020,",80%,tertiary,"hospitals,",50%,
+Community,,,Health,Centres in,,Urban,areas,and,50%,hospitals,in,rural,areas,would,established,,,
+their own EHR system in China(Parikh 2015).,,,,,,,,Governments at all the levels,,,,,in China,,are working,,,
+on,sharing,data,and,clinical,,services,among,communities,,which,,are,geographically,,dispersed,,,
+through,,Regional,,Healthcare,,Information,,Networks,,(RHINs) ,,by,utilizing,data,centres,and,,
+telecommunication,,,,networks.,,Efforts,are,under,way,to,link,EMR,Systems,with,EHR,systems,,
+through Health Cards. ,,,,,,,,,,,,,,,,,,
+Establishment of Bangladesh National Enterprise Architecture ,,,,,,,,,,,,,,,,,,
+To realize the vision and mission of establishing “Digital Bangladesh” by the year 2021 through,,,,,,,,,,,,,,,,,,
+"establishment of transparent, efficient and citizen centric public services, termed as “e-services”",,,,,,,,,,,,,,,,,,
+"through ICT, ""National Enterprise Architecture"" and “e-Government Interoperability Framework",,,,,,,,,,,,,,,,,,
+(e-GIF)” ,,has,been,one,of,the,key,projects,undertaken,by,the,Government ,,of,Bangladesh,,,
+(GoB)(International Telecommunication Union (ITU) 2016). The project objective was to develop,,,,,,,,,,,,,,,,,,
+"systems,",,"structures,",,"technologies,",,strategies,,and,provide,an,enabling,environment,,,across,the,,
+Government,,,via,improved management,,,,of,"asset,",increased,interoperability,,,and,reduced,risks,,
+and,procurement,,costs.,,The,goal,of,the,system,is,to,improve,the,quality,of,service,delivery,by
+"health care providers. The rural citizens, who form majority (around 76%) of the Bangladesh’",,,,,,,,,,,,,,,,,,
+population were first to be included in the system(Zishan et al. 2019). The project initiated in the,,,,,,,,,,,,,,,,,,
+year 2014 and was completed by the year 2016. It was implemented by the Bangladesh Computer,,,,,,,,,,,,,,,,,,
+Council,,"(BCC),",an,apex,body,of,the,GoB.,The,government,of,Bangladesh,uses,three,types,of,,
+"softwares, namely DHIS-2 for public health services through health facilities all over the country,",,,,,,,,,,,,,,,,,,
+OpenMRS,,for,hospital,services,,and,HRM,for,human,resource,management(Additional,,,,Director,,,
+General,,and,Director,of,Management,,Information,,System,"(MIS),",,DGHS,2015).,The,government,,,
+plans,,to,develop,electronic,,shared,health,records,(SHR),systems,,which,will,integrate,"DHIS-2,",,,
+OpenMRS,,and,HRM,in,national,level eHealth,,,enterprise,architecture,,"(eHEA), to",,exchange,data,,,
+via,eHIE (electronic,,,health,information,,exchange)(Additional,,,,Director,General,,and,Director,of,,
+"Management Information System (MIS), DGHS 2015). ",,,,,,,,,,,,,,,,,,
+Lifetime Health Record in Malaysia ,,,,,,,,,,,,,,,,,,
+Lifetime Health Record (LHR) and Services is an initiative by the Government of Malaysia(Zishan,,,,,,,,,,,,,,,,,,
+et,al.,2019).,Under,this,"plan,",records,for,each,individual,will,be,maintained,,throughout,his,life,,
+"time, starting from the time of his/her first consultation with the service provider until each time",,,,,,,,,,,,,,,,,,
+he/she visits the service provider. ,,,,,,,,,,,,,,,,,,
+Components & Activities involved in EHR adoption ,,,,,,,,,,,,,,,,,,
+Srivastava in his paper on “Adoption of Electronic Health Records: A Roadmap for India” clearly,,,,,,,,,,,,,,,,,,
+outlines,,four,key,components,,that,are,needed,to,adopt,EHR,at,the,national,level,(Srivastava,,
+2016).,,Table 4 enlist these components and the underlying activities in each.,,,,,,,,,,,,,,,,
+Electronic Health Records in India,,,,,,,,,,,,,,,Page 12 ,,,
+CSD Working Paper Series: Towards a New Indian Model of Information and Communications,,,,,,,,,,,,,,,,,
+Technology-Led Growth and Development ,,,,,,,,,,,,,,,,,
+Table 4 : Components and Activities involved in EHR adoption ,,,,,,,,,,,,,,,,,
+,S.No. ,Component ,,,,,Activities ,,,,,,,,,,
+1,,ICT Infrastructure ,,,,,Creation of basic ICT Infrastructure ,,,,,,,,,,
+,,,,,,,Creation of national secure health net ,,,,,,,,,,
+,,,,,,,Creation of storage and exchange infrastructure ,,,,,,,,,,
+,,,,,,,Use of free and open source software ,,,,,,,,,,
+,,,,,,,Use of personal health record system ,,,,,,,,,,
+2,,Policy & regulations ,,,,,National Health IT Policy ,,,,,,,,,,
+,,,,,,,Protection of Privacy ,,,,,,,,,,
+,,,,,,,Sharing of health information ,,,,,,,,,,
+,,,,,,,Use of health information ,,,,,,,,,,
+,,,,,,,Liability of technical failures ,,,,,,,,,,
+3,,Standards & interoperability ,,,,,Establishment of agency for health IT standards ,,,,,,,,,,
+,,,,,,,Use of unique patient identity ,,,,,,,,,,
+,,,,,,,Conformation of testing facility ,,,,,,,,,,
+,,,,,,,Support for adoption of standards ,,,,,,,,,,
+,,,,,,,Guidelines for health IT solutions ,,,,,,,,,,
+4,,"Research, development &",,,,,Research & development in health IT ,,,,,,,,,,
+,,education ,,,,,Human resource development ,,,,,,,,,,
+,,,,,,,Development of online courseware ,,,,,,,,,,
+,,,,,,,Dissemination of best practices ,,,,,,,,,,
+,,,,,,,International collaboration ,,,,,,,,,,
+ICT Infrastructure ,,,,,,,,,,,,,,,,,
+"In order to establish EHR system at the national level, the first pre-requisite is to have appropriate",,,,,,,,,,,,,,,,,
+ICT,infrastructure,,in,place.,At,"present,",only,major,hospitals,,in,India,have,ICT,infrastructure,for,
+the delivery of healthcare services. It is needed that all the public healthcare facilities across the,,,,,,,,,,,,,,,,,
+nation,,have,basic,ICT,equipments in,,place.,"Also,",to,ensure,that,information,exchange,,is,secure,
+"and reliable, appropriate communication networks should be established using the existing ones",,,,,,,,,,,,,,,,,
+like,"NKN,",ERNET,etc.,"Further,",it,is,required,to,take,an,approach,of,establishing,free,and,open,
+source (FOSS) EMR system. This will ensure that private healthcare facilities which handle a huge,,,,,,,,,,,,,,,,,
+burden of patients can provide relevant inputs and support.,,,,,,,,,,,"Also, establishing a personal health",,,,,,
+record,,(PHR),system,can,facilitate,,easy,adoption,of,EHR.,PHR,system,will,help,doctors,an,easy
+"access to the basic patient information like demographics,",,,,,,,,,,,medical history etc. ,,,,,,
+Policy & regulations ,,,,,,,,,,,,,,,,,
+A,National,Health,IT,policy,needs,,to,be,formulated,,which,will,ensure,that,efforts,are,not
+duplicated,,and,systems,are,interoperable.,,,Regulations,,,to,protect,the,confidentiality,of,the,
+patient data are also needed. Laws are required to ensure that information shared electronically,,,,,,,,,,,,,,,,,
+by,the,healthcare,providers,,is,in,the,interest,of,patients.,A,well-defined,procedure,,must,be,
+defined,,under,the,legislation,to,use,the,clinical,information,,of,the,patients,for,decision,making,
+purposes. Regulations should define the responsibilities of all the stakeholders involved to ensure,,,,,,,,,,,,,,,,,
+Electronic Health Records in India,,,,,,,,,,,,,,,Page 13 ,,
+CSD Working Paper Series: Towards a New Indian Model of Information and Communications,,,,,,,,,,,,,,,,,,
+Technology-Led Growth and Development ,,,,,,,,,,,,,,,,,,
+timely,delivery,,,of,services.,,This,will,also,help,in,addressing,liabilities,in,case,of,technical,issues
+and failure. ,,,,,,,,,,,,,,,,,,
+Standards & interoperability ,,,,,,,,,,,,,,,,,,
+"Though the Ministry of Health & Family Welfare (MoH&FW) has put forward the EHR standards,",,,,,,,,,,,,,,,,,,
+but,there,is,a,need,of,an,agency,to,regularly,update,these,standards,and,to,extend,necessary,,
+technical,,support,,needed,,,for,its,implementation.,It,is,recommended,to,use,unique,ID,like,
+Aadhaar number for each patient’s identification and for tracking his/her clinical progress. The,,,,,,,,,,,,,,,,,,
+government,,,should,,put,forward,an,agency,to,verify,and,ensure,that,the,IT,solutions,developed,
+are interoperable. Guidelines should be developed for providing solutions in cases where it is not,,,,,,,,,,,,,,,,,,
+possible to follow the EHR standards. ,,,,,,,,,,,,,,,,,,
+"Research, development & education ",,,,,,,,,,,,,,,,,,
+Research ,,&,Development,,,,related,to,use,of,EHRs,should,be,promoted.,This,is,needed,to
+continuously,,,improve,,,the,quality,of,"EHRs,",reduce,its,deployment,cost,and,also,to,facilitate,
+innovations.,,,A,well,trained,,human,,resource,in,the,field,of,Health,IT,should,be,prepared.
+Developing,,e-courses,,,to,facilitate,,learning,related,to,EHRs,will,be,helpful.,An,agency,is,needed
+to,collect,and,,share,information,,,related,to,EHRs.,"Further,",International,collaborations and,,,their,,
+expertise can be useful for the deployment of EHRs in India.,,,,,,,,,,,,,,,,,,
+Conclusion ,,,,,,,,,,,,,,,,,,
+"To conclude, the development and implementation of Electronic Health Records in India are still",,,,,,,,,,,,,,,,,,
+in the fragmented stages. It is important to focus on following broad issues if this initiative have,,,,,,,,,,,,,,,,,,
+to succeed on scale: 1) proper training of doctors and other healthcare professionals to use EHR,,,,,,,,,,,,,,,,,,
+effectively;,,2),,a,much,higher,level,of,public-private,,partnerships,is,needed;,3),appropriate,ICT,,
+infrastructure should be in place; 4) working towards standardizing EHRs; 5) a National Health IT,,,,,,,,,,,,,,,,,,
+policy needs to be formulated; 6) an efficient management structure to deploy EHR should be in,,,,,,,,,,,,,,,,,,
+place;,7),efforts,,should,,be,made,to,sensitize,healthcare,workers,related,to,the,importance,of,,
+EHRs; 8) synergy between software development team and healthcare delivery team is required;,,,,,,,,,,,,,,,,,,
+9),incorporating,,,voice-based,,,and,writing,based,inputs,into,the,EHR,System,should,be,explored;,
+and 10) research & development related to the use of EHRs should be promoted.,,,,,,,,,,,,,,,,,,
+References ,,,,,,,,,,,,,,,,,,
+"Additional Director General and Director of Management Information System (MIS), DGHS.",,,,,,,,,,,,,,,,,,
+2015. “Health Sector Demonstrates the Incredible Power of the System.” 2015.,,,,,,,,,,,,,,,,,,
+Electronic Health Records in India,,,,,,,,,,,,,,,,Page 14 ,,
+CSD Working Paper Series: Towards a New Indian Model of Information and Communications,
+Technology-Led Growth and Development ,
+https://www.thedailystar.net/supplements/24th-anniversary-the-daily-star-part-2/health-,
+sector-demonstrates-the-incredible-power. ,
+"Bhavaraju, RS. 2018. “From Subconscious to Conscious to Artificial Intelligence: A Focus on",
+Electronic Health Records” 66 (5): 1270–75. ,
+"Gao, Xiangzhu, Jun Xu, Golam Sorwar, and Peter Croll. 2013. “Implementation of E-Health",
+Record Systems and E-Medical Record Systems in China.”,The International Technology
+Management Review 3 (2): 127. https://doi.org/10.2991/itmr.2013.3.2.6. ,
+HIMSS Analytics. 2017. “Electronic Medical Record Adoption Model.” 2017.,
+https://www.himssanalytics.org/emram. ,
+International Telecommunication Union (ITU). 2016. “Establishment of Bangladesh National,
+Enterprise Architecture.” 2016. ,
+https://www.itu.int/net4/wsis/archive/stocktaking/Project/Details?projectId=1515593078. ,
+"Mantri, Manisha. 2016. “Electronic Health Record (EHR) Standards for India (2016),” 57. ",
+"Ministry of Health & Family Welfare, and Government of India. 2018. “Digital Information",
+"Security in Healthcare, Act [Draft for Public Consultation].”",
+https://www.nhp.gov.in/NHPfiles/R_4179_1521627488625_0.pdf. ,
+"Ministry of Health and Family Welfare, Government of India. 2017. “National EHealth Authority",
+(NeHA).” 2017. https://www.nhp.gov.in/national_eHealth_authority_neha_mtl. ,
+NITI Aayog. 2018. “National Health Stack-Strategy and Approach.” ,
+http://niti.gov.in/writereaddata/files/document_publication/NHS-Strategy-and-Approach-,
+Document-for-consultation.pdf. ,
+"Ozair, FF, N Jamshed, A Sharma, and P Aggarwal. 2015. “Ethical Issues in Electronic Health",
+Records: A General Overview.” Perspect Clin Res 6 (2): 73–76. ,
+"Parikh, Harsh. 2015. “Overview Of EHR Systems In BRIC Nations.” 2015.",
+https://www.clinicalleader.com/doc/overview-of-ehr-systems-in-bric-nations-0001. ,
+"Srivastava, Sunil Kumar. 2016. “Adoption of Electronic Health Records: A Roadmap for India.”",
+Healthcare Informatics Research 22 (4): 261. https://doi.org/10.4258/hir.2016.22.4.261. ,
+Vikaspedia. 2019. “Electronic Health Record Standards for India.” 2019.,
+Electronic Health Records in India,Page 15 
+CSD Working Paper Series: Towards a New Indian Model of Information and Communications,,,
+Technology-Led Growth and Development ,,,
+http://vikaspedia.in/health/nrhm/national-health-policies/electronic-health-record-standards-,,,
+for-india. ,,,
+"World Health Organization, and Regional Office for the Western Pacific. 2006. Electronic Health",,,
+Records: A Manual for Developing Countries. Manila: World Health Organization Western,,,
+Pacific Region. http://books.google.com/books?id=6UchAQAAMAAJ. ,,,
+"Zishan, Saniat Rahman, Chowdhury Akram Hossain, Mohamad Afendee Mohamed, and",,,
+Maryam Sharun. 2019. “The Scenario of E-Health Systems in Developing Countries (Bangladesh,,,
+and Malaysia)” 8 (1): 6. ,,,
+Annexures ,,,
+Annexure 1: Standards at a Glance ,,,
+S.No. ,Type ,Standard Name ,Intended Purpose 
+1,Identification &,ISO/TS 22220:2011 Health Informatics –,Basic identity details
+,Demographics ,Identification of Subjects of Health Care ,of patient 
+2,,MDDS – Demographic (Person Identification,Complete
+,,and Land Region Codification) version 1.1 ,demographic for
+,,,interoperability with
+,,,E-Governance systems 
+3,Patient Identifiers ,UIDAI Aadhaar ,Preferable identifier
+,,,where available 
+4,,Local Identifier ,Identifier given within
+,,,institution / clinic /lab 
+5,,Government Issued Photo Identity Card,Identifier used in
+,,Number ,conjunction with local
+,,,in absence of Aadhaar 
+6,Architecture,ISO 18308:2011 Health Informatics – ,System architectural
+,Requirements ,Requirements for an Electronic Health Record,Requirements 
+,,Architecture ,
+Electronic Health Records in India,,,Page 16 
+CSD Working Paper Series: Towards a New Indian Model of Information and Communications,,,
+Technology-Led Growth and Development ,,,
+7,Functional,ISO/HL7 10781:2015 Health Informatics - HL7,System functional
+,Requirements ,Electronic Health Records-System Functional,requirements 
+,,Model Release 2 (EHR FM) ,
+8,Reference Model,ISO 13940 Health informatics - System of,"Concepts for care,"
+,and Composition ,Concepts to Support Continuity of Care ,"actors, activities,"
+,,,"processes, etc. "
+9,,ISO 13606 Health informatics - Electronic,Information model
+,,Health Record Communication (Part 1,architecture and
+,,through 3) ,communication 
+10,,openEHR Foundation Models Release 1.0.2 ,Structural definition
+,,,and composition 
+11,Terminology ,SNOMED Clinical Terms (SNOMED CT) ,Primary terminology 
+12,Coding System ,Logical Observation Identifiers Names and,"Test, measurement,"
+,,Codes (LOINC) ,observations 
+13,,WHO Family of International Classifications,Classification and
+,,"(WHOFIC) including ICD, ICF, ICHI, ICD-O ",reporting 
+14,Imaging ,Digital Imaging and Communications in," Image, waveform,"
+,,Medicine (DICOM) PS3.0-2015 ,audio/video 
+15,Scanned or,JPEG lossy (or lossless) with size and,Image capture format 
+,Captured Records ,resolution not less than 1024px x 768px at,
+,,300dpi ,
+16,,ISO/IEC 14496 - Coding of Audio-Visual,Audio/Video capture
+,,Objects ,format 
+17,,ISO 19005-2 Document Management – ,Scanned documents
+,,Electronic Document File Format for Long-,format 
+,,Term Preservation - Part 2: Use of ISO 32000-,
+,,1 (PDF/A-2) ,
+18,Data Exchange , ANSI/HL7 V2.8.2-2015 HL7 Standard Version,Event/Message
+,,2.8.2 - An Application Protocol for Electronic,exchange 
+,,Data Exchange in Healthcare Environments ,
+Electronic Health Records in India,,,Page 17 
+CSD Working Paper Series: Towards a New Indian Model of Information and Communications,,,
+Technology-Led Growth and Development ,,,
+19,,ASTM/HL7 CCD Release 1 (basis standard,Summary Records
+,,ISO/HL7 27932:2009) ,exchange 
+20,,ISO 13606-5:2010 Health informatics – ,EHR archetypes
+,,Electronic Health Record Communication - ,"exchange [Also, refer"
+,,Part 5: Interface Specification ,to openEHR Service
+,,,Model specification] 
+21,,DICOM PS3.0-2015 (using DIMSE services &,Imaging/Waveform
+,,Part-10 media/files) ,Exchange 
+22,Other Relevant,Bureau of Indian Standards and its MHD-17,Standards
+,Standards ,Committee ,Development
+,,,Organizations (SDOs) 
+23,,ISO TC 215 set of standards ,
+24,,IEEE/NEMA/CE standards for physical systems,
+,,and interfaces ,
+25,Discharge/,Medical Council of India (MCI) under,Composition as
+,Treatment,regulation 3.1 of Ethics ,prescribed 
+,Summary ,,
+26,E-Prescription ,"Pharmacy Practice Regulations, 2015",Composition as
+,,Notification No. 14-148/ 2012- PCI as,prescribed 
+,,specified by Pharmacy Council of India ,
+27,Personal,IEEE 11073 health informatics standards and,Device interfacing 
+,Healthcare and,related ISO standards for medical devices ,
+,medical Device,,
+,Interface ,,
+28,Data Privacy and,ISO/TS 14441:2013 Health Informatics – ,Basis security and 
+,Security ,Security & Privacy Requirements of EHR,privacy requirements 
+,,Systems for Use in Conformity Assessment ,
+29,Information,ISO/DIS 27799 Health informatics – ,Overall information
+,Security,Information Security Management in Health,security management 
+,Management ,using ISO/IEC 27002 ,
+30,Privilege ,ISO 22600:2014 Health informatics – Privilege,Access control 
+,Management ,Management and Access Control (Part 1,
+,,through 3) ,
+Electronic Health Records in India,,,Page 18 
+CSD Working Paper Series: Towards a New Indian Model of Information and Communications,,,,,,,,,,,,,
+Technology-Led Growth and Development ,,,,,,,,,,,,,
+,and Access,,,,,,,,,,,,
+,Control ,,,,,,,,,,,,
+31,Audit,Trail,and,ISO,27789:2013,Health ,informatics,- ,Audit,Audit trail ,,,
+,Logs ,,,trails for Electronic Health Records ,,,,,,,,,
+32,Data Integrity ,,,Secure,Hash,Algorithm,(SHA),used,must,be,Data Hashing ,,
+,,,,SHA-256 or higher ,,,,,,,,,
+33,Data Encryption ,,,Minimum 256-bits key length ,,,,,,Encryption key ,,,
+34,,,,"HTTPS, SSL v3.0, and TLS v1.2 ",,,,,,Encrypted connection ,,,
+35,Digital Certificate ,,,ISO,17090,Health,informatics,- ,Public,Key,Digital,certificates,use
+,,,,Infrastructure (Part 1 through 5) ,,,,,,and management ,,,
+Annexure 2: List of Supporting / Complimenting Standards ,,,,,,,,,,,,,
+S.No. ,Standard ,,,,Description ,,,,,,,,
+1,ISO 12967:2009 ,,,,Health Informatics - Service Architecture (Parts 1 - 3) ,,,,,,,,
+2,ISO 13972:2015 ,,,,"Health Informatics - Detailed Clinical Models, Characteristics",,,,,,,,
+,,,,,and Processes ,,,,,,,,
+3,ISO 20301:2014 ,,,,Health Informatics - Health Cards - General Characteristics ,,,,,,,,
+4,ISO 21090:2011 ,,,,Health Informatics - Harmonized Data Types for Information ,,,,,,,,
+,,,,,Interchange ,,,,,,,,
+5,ISO 8601:2004 ,,,,Data elements and Interchange Formats - Information,,,,,,,,
+,,,,,Interchange -Representation of Dates and Times ,,,,,,,,
+6,ISO 13119:2012 ,,,,Health Informatics - Clinical Knowledge Resources - Metadata ,,,,,,,,
+7,ISO 22857:2013 ,,,,Health Informatics – Guidelines on Data Protection to,,,,,,,,
+,,,,,Facilitate Trans-Border Flows of Personal Health Data ,,,,,,,,
+8,ISO 21549-1:2013 ,,,,Health Informatics — Patient Healthcard Data — Part 1:,,,,,,,,
+,,,,,General Structure ,,,,,,,,
+9,ISO TS 14265:2011 ,,,,Classification of Purposes for Processing Personal Health,,,,,,,,
+,,,,,Information ,,,,,,,,
+10,ISO TS 27527:2010 ,,,,Health Informatics – Provider Identification ,,,,,,,,
+Annexure 3: Objectives of National eHealth Authority (NeHA) ,,,,,,,,,,,,,
+S.No. ,Objectives ,,,,,,,,,,,,
+1,To formulate “National eHealth Policy and Strategy” for coordinated eHealth adoption in,,,,,,,,,,,,
+,the country ,,,,,,,,,,,,
+Electronic Health Records in India,,,,,,,,,,Page 19 ,,,
+CSD Working Paper Series: Towards a New Indian Model of Information and Communications,,
+Technology-Led Growth and Development ,,
+2,To oversee orderly evolution of eHealth initiatives (state and nationwide) and to guide,
+,adoption of eHealth at various levels and in different geographical and health system areas ,
+3,To promote setting up of state health records repositories and health information,
+,exchanges (HIEs) to facilitate interoperability ,
+4,To formulate and manage all health informatics standards for India ,
+5,"To lay down data management, privacy and security policies, guidelines and health records",
+,of patients in accordance with statutory provisions ,
+6,"To enforce the laws and regulations relating to the privacy, confidentiality, and security of",
+,the patient's health information and records ,
+7,"To coordinate efforts across departments and ministries, and liaise with other related",
+,policy/regulatory groups to ensure consistency and coherence ,
+8,To help enable ecosystem that involves stakeholders to improve care delivery and health,
+,outcomes ,
+9,To map continuous evolution of the eHealth landscape and take on new functions as,
+,needed ,
+Annexure 4: Electronic Medical Record Adoption Model (EMRAM) ,,
+Stage 7 ,Complete EMR; External HIE;,The hospital no longer uses paper charts to
+,"Data Analytics, Governance,",deliver and manage patient care and has a
+,"Disaster Recovery, Privacy And","mixture of discrete data, document images,"
+,Security ,and medical images within its EMR
+,,environment. 
+,,Data warehousing is being used to analyze
+,,patterns of clinical data to improve quality of
+,,"care, patient safety, and care delivery"
+,,efficiency. 
+,,Clinical information can be readily shared via
+,,"standardized electronic transactions (i.e.,"
+,,CCD) with all entities that are authorized to 
+,,"treat the patient, or a health information"
+,,"exchange (i.e., other non-associated"
+,,"hospitals, outpatient clinics, sub-acute"
+,,"environments, employers, payers and"
+,,patients in a data sharing environment). 
+,,The hospital demonstrates 
+,,summary data continuity for all hospital
+,,"services (e.g., inpatient, outpatient, ED, and"
+,,with any owned or managed outpatient
+,,clinics). 
+,,Physician documentation and CPOE has
+,,"reached 90% (excluding the ED), and the"
+,,closed-loop processes have reached 95%
+,,(excluding the ED). 
+Electronic Health Records in India,,Page 20 
+CSD Working Paper Series: Towards a New Indian Model of Information and Communications,,
+Technology-Led Growth and Development ,,
+Stage 6 ,"Technology Enabled Medication,",Technology is used to achieve a closed-loop
+,"Blood Products, And Human Milk","process for administering medications, blood"
+,Administration; Risk Reporting;,"products, and human milk, and for blood"
+,Full CDS ,specimen collection and tracking. These
+,,closed-loop processes are fully implemented
+,,in 50 percent of the hospital. Capability must
+,,"be in use in the ED, but ED is excluded from"
+,,50% rule. 
+,,The eMAR and technology in use are
+,,"implemented and integrated with CPOE,"
+,,"pharmacy, and laboratory systems to"
+,,maximize safe point-of-care processes and
+,,results. 
+,,A more advanced level of CDS provides for
+,,the “five rights” of medication
+,,administration and other 'rights' for blood
+,,"product, and human milk administrations"
+,,and blood specimen processing. 
+,,At least one example of a more advanced
+,,level of CDS provides guidance triggered by
+,,physician documentation related to
+,,protocols and outcomes in the form of
+,,"variance and compliance alerts (e.g., VTE risk"
+,,assessment triggers the appropriate VTE
+,,protocol recommendation). 
+,,Mobile/portable device security policy and
+,,practices are applied to user-owned devices.
+,,Hospital conducts annual security risk
+,,assessments and report is provided to a
+,,governing authority for action. 
+Stage 5 ,Physician Documentation Using,"Full physician documentation (e.g., progress"
+,Structured Templates; Intrusion/,"notes, consult notes, discharge summaries,"
+,Device Protection ,"problem/diagnosis list, etc.) with structured"
+,,templates and discrete data is implemented
+,,for at least 50 percent of the hospital.
+,,"Capability must be in use in the ED, but ED is"
+,,excluded from 50% rule. 
+,,Hospital can track and report on the
+,,timeliness of nurse order/task completion. 
+,,Intrusion prevention system is in use to not
+,,"only detect possible intrusions, but also"
+,,prevent intrusions. Hospital-owned portable
+,,devices are recognized and properly
+,,"authorized to operate on the network, and"
+,,can be wiped remotely if lost or stolen. 
+Electronic Health Records in India,,Page 21 
+CSD Working Paper Series: Towards a New Indian Model of Information and Communications,,,,,,,,,
+Technology-Led Growth and Development ,,,,,,,,,
+Stage 4 ,CPOE With CDS; Nursing And,50 percent of all medical orders are placed,,,,,,,
+,Allied Health Documentation;,using Computerized Practitioner Order Entry,,,,,,,
+,Basic Business Continuity ,(CPOE) by any clinician licensed to create,,,,,,,
+,,orders. CPOE is supported by a clinical,,,,,,,
+,,decision support (CDS) rules engine for,,,,,,,
+,,"rudimentary conflict checking, and orders",,,,,,,
+,,are added to the nursing and CDR,,,,,,,
+,,environment. ,,,,,,,
+,,CPOE is in use in the Emergency,,,,,,,
+,,"Department, but not counted in the 50%",,,,,,,
+,,rule. ,,,,,,,
+,,Nursing/allied health professional,,,,,,,
+,,documentation has reached 90% (excluding,,,,,,,
+,,the ED). ,,,,,,,
+,,"Where publicly available, clinicians have",,,,,,,
+,,access to a national or regional patient,,,,,,,
+,,"database to support decision making (e.g.,",,,,,,,
+,,"medications, images, immunizations, lab ",,,,,,,
+,,"results, etc.). ",,,,,,,
+,,"During EMR downtimes, clinicians have",,,,,,,
+,,"access to patient allergies, problem/ ",,,,,,,
+,,"diagnosis list, medications, and lab results.",,,,,,,
+,,Network intrusion detection system in place,,,,,,,
+,,to detect possible network intrusions. ,,,,,,,
+,,Nurses are supported by a second level of,,,,,,,
+,,CDS capabilities related to evidence-based,,,,,,,
+,,"medicine protocols (e.g., risk assessment",,,,,,,
+,,scores trigger recommended nursing tasks). ,,,,,,,
+Stage 3 ,Nursing And Allied Health,50 percent of nursing/allied health,,,,,,,
+,Documentation; EMAR; Role-,"professional documentation (e.g., vital signs,",,,,,,,
+,Based Security ,"flowsheets, nursing notes, nursing tasks,",,,,,,,
+,,care plans) is implemented and integrated,,,,,,,
+,,with the CDR (hospital defines formula). ,,,,,,,
+,,"Capability must be in use in the ED, but ED is",,,,,,,
+,,excluded from 50% rule. The Electronic,,,,,,,
+,,Medication Administration Record,,,,,,,
+,,application (eMAR) is implemented. ,,,,,,,
+,,Role-based access control (RBAC) is,,,,,,,
+,,implemented. ,,,,,,,
+Stage 2 ,CDR; Internal Interoperability;,Major,ancillary,,clinical,systems,are,enabled,
+,Basic Security ,with,internal,interoperability,,feeding,,data,to
+,,a,single,clinical,data,repository,(CDR),or,fully
+,,integrated,,data,stores,that,provide,seamless,
+,,clinician,,access,from,a,single,user,interface
+,,"for reviewing all orders, results, and radiology",,,,,,,
+,,and cardiology images. ,,,,,,,
+Electronic Health Records in India,,,,,,,,Page 22 ,
+CSD Working Paper Series: Towards a New Indian Model of Information and Communications,,,,,,,,,,
+Technology-Led Growth and Development ,,,,,,,,,,
+,,The,CDR/data,,stores,contain,a,controlled,,
+,,medical,,vocabulary,and,order,verification,,is,
+,,supported by a clinical decision support (CDS),,,,,,,,
+,,rules,engine,,for,rudimentary,,conflict,,
+,,checking. ,,,,,,,,
+,,Information from document imaging systems,,,,,,,,
+,,may be linked to the CDR at this stage ,,,,,,,,
+,,Basic,security,,policies,and,capabilities,,,
+,,addressing,,physical,"access,",acceptable,,"use,",,
+,,mobile,"security,",,"encryption,",,antivirus/anti-,,,
+,,"malware, and data destruction. ",,,,,,,,
+Stage 1 ,"Ancillaries - Laboratory,",All,three,major,ancillary,clinical,systems,,are,
+,"Pharmacy, And Radiology/",installed,,"(i.e.,","pharmacy,","laboratory,",,,and,
+,Cardiology Information Systems;,radiology). ,,,,,,,,
+,PACS; Digital Non-DICOM Image,A,full,complement,of,radiology,,,and,
+,Management ,cardiology,,PACS,systems,provides,medical,,,
+,,images,to,physicians,via,an,intranet,,and,
+,,displaces,,all,film-based,images.,Patient-,,,
+,,centric,storage,of,non-DICOM,,images,is,also,
+,,available. ,,,,,,,,
+Stage 0 ,All Three Ancillaries Not Installed ,The,organization,,has,not,installed,all,of,the
+,,three,key,ancillary,department,,systems ,,,
+,,"(laboratory, pharmacy, and radiology). ",,,,,,,,
+Electronic Health Records in India,,,,,,,,Page 23 ,,
